@@ -1,4 +1,5 @@
 import ccwc
+### File to run unit tests against code
 
 def test_count_bytes():
     assert ccwc.count_bytes('test.txt') == 342190, "Should be 342190"

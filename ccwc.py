@@ -47,7 +47,7 @@ def count_characters(input_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='wc command line tool')
     parser.add_argument('filename')
-    parser.add_argument('-c', action="store_true", dest='file_size', help="gets the byte count")
+    parser.add_argument('-c', action="store_true", dest='file_size', help="gets file size in bytes")
     parser.add_argument('-l', action="store_true", dest='line_count', help="gets the line count")
     parser.add_argument('-w', action="store_true", dest='word_count', help="gets the word count")
     parser.add_argument('-m', action="store_true", dest='char_count', help="gets the character count")
